@@ -1,0 +1,77 @@
+body{
+    background-image: url("./img/fondo.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+    background: -moz-linear-gradient(left, rgba(137,149,224,1) 0%, rgba(92,101,237,1) 42%, rgba(31,34,255,1) 100%);
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #0e0e0e;
+    letter-spacing: 0em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+    color: #171717;
+}
+
+main{
+    margin-top: 88px;
+}
+
+main .profile{
+    box-sizing: border-box;
+    position: relative;
+    background: #ffffff;
+    text-align: center;
+    z-index: 10;
+    border-radius: 4px;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.profile-background{
+    
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+}
+
+.profile-image{
+    position: relative;
+    height: 84px;
+}
+.profile-image img{
+    position: relative;
+    top: -82px;
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 134px;
+    left: calc(50% - 78px);
+}
+
+.profile-name{
+    font-size: 32px;
+    color: white;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center
+}
+
+.profile-ciudad{
+    font-size: 14px;
+    color: #3498DB;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: center
+}
+
