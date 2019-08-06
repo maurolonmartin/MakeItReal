@@ -7,9 +7,7 @@ function count() {
             cant = cant + 1;
         }
     }
-    //return (cant);
-    alert("La cantidad de " + "'" + b + "'" + " que se repiten es de: " + cant);
-
+    return (cant);
 };
 
 
@@ -33,5 +31,5 @@ function hypotenuse(a, b) {
     cat1 = parseInt(prompt("Digite el valor del primer cateto"));
     cat2 = parseInt(prompt("Digite el valor del segundo cateto"));
     hip = Math.sqrt(cat1 * cat1 + cat2 * cat2);
-    alert(hip);
+    return(hip);
 };
