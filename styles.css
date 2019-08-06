@@ -74,4 +74,7 @@ main .profile{
     font-weight: 400;
     text-align: center
 }
-
+.btnHipotenusa{
+    position: relative;
+    left: calc(52% - 78px);
+}
