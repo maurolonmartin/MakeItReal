@@ -10,7 +10,6 @@ function count() {
     return (cant);
 };
 
-
 function filter() {
     var numeros = new Array(3, 12, 45, 7, 100, 1, 2, 145);
     var nuevo = new Array;
